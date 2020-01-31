@@ -1,8 +1,16 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
+#ifdef _MSC_VER
+#define _CRT_SECURE_NO_WARNINGS
+#endif
+
 
 int main() {
 	printf("Hello World!");
-	//여기는 주석입니다.
-	//This is a comment
+
+	// type here
+	
+	system("pause");
+
 	return 0;
 }
