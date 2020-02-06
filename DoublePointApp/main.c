@@ -3,7 +3,7 @@
   version - 1.0
   description - 기본 메인 함수
   --------------------------------------------------------------------------------
-  first created - 2020.02.05
+  first created - 2020.02.01
   writer - Hugo MG Sung.
 */
 
@@ -13,24 +13,7 @@
 // 메인함수
 int main(void) 
 {
-
-    char animal[5][20];
-
-    int i;
-    int count;
-
-    count = sizeof(animal) / sizeof(animal[0]);
-    for (i = 0; i < count; i++)
-    {
-        scanf("%s", animal[i]);
-    }
-    for (i = 0; i < count; i++)
-    {
-        printf("%4s", animal[i]);
-    }
-
-
-
+	printf("Hello World!\n");
     // type here.
 	system("pause");
 	return EXIT_SUCCESS;
