@@ -19,11 +19,7 @@ int main(void)
     char* pc = NULL;
     ss = a;
 
-    while (1)
-    {
-        if (a == 'X') { break; }
-            printf("계절을 입력하시오 : ");
-        scanf("%s", &a);
+   
        
     switch (ss)
     {
@@ -37,7 +33,6 @@ int main(void)
         pc = "skiing"; break;
     }
     printf("나의 레저 활동 => %s\n", pc);
-    }
     // type here.
 	system("pause");
 	return EXIT_SUCCESS;
