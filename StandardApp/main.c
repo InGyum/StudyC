@@ -47,7 +47,7 @@ int main(void)
     //PRINT_EXPR(a1 + a2);
     //PRINT_EXPR(a2 - a1);
 
-    int max;
+    /*int max;
 
 #if VER >= 6
     printf("버전 %d입니다.\n",VER);
@@ -59,7 +59,8 @@ int main(void)
     max = 2147483647;
 #endif
 
-    printf("int형 변수의 최댓값 : %d\n", max);
+    printf("int형 변수의 최댓값 : %d\n", max);*/
+
 
 
 	system("pause");
